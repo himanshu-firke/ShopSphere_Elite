@@ -8,7 +8,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
-                'resources/js/main.jsx' // make sure this file exists
+                'resources/js/main.jsx'
             ],
             refresh: true,
         }),
@@ -16,7 +16,18 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, 'resources/js'), // cleaned up extra "./"
+            '@': path.resolve(__dirname, 'resources/js'),
+        },
+    },
+    build: {
+        outDir: 'public',  
+        emptyOutDir: true, 
+        rollupOptions: {
+            output: {
+                entryFileNames: 'assets/[name].[hash].js',
+                chunkFileNames: 'assets/[name].[hash].js',
+                assetFileNames: 'assets/[name].[hash].[ext]',
+            },
         },
     },
     server: {
