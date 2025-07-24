@@ -8,7 +8,7 @@ export default defineConfig({
         laravel({
             input: [
                 'resources/css/app.css',
-                'resources/js/main.jsx'
+                'resources/js/main.jsx' // make sure this file exists
             ],
             refresh: true,
         }),
@@ -16,11 +16,15 @@ export default defineConfig({
     ],
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, './resources/js'),
+            '@': path.resolve(__dirname, 'resources/js'), // cleaned up extra "./"
         },
     },
     server: {
+        host: 'localhost',
+        port: 5173,
+        strictPort: true,
         hmr: {
+            protocol: 'ws',
             host: 'localhost',
         },
     },
