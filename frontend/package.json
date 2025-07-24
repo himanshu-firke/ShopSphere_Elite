@@ -6,6 +6,7 @@
       "dev": "vite",
       "build": "vite build",
       "preview": "vite preview",
+      "start": "vite preview --port $PORT",
       "lint": "eslint src/**/*.{js,ts,jsx,tsx}",
       "lint:fix": "eslint src/**/*.{js,ts,jsx,tsx} --fix",
       "format": "prettier --write src/**/*.{js,ts,jsx,tsx,css}",
@@ -45,4 +46,3 @@
       "vite": "^6.3.5"
     }
   }
-  
