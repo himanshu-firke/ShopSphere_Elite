@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Task Manager Files (DO NOT UPLOAD)
+*.bat
+*.cmd
+FIX_*.php
+CLEAN_*.bat
+ALIGN_*.bat
+SETUP_*.bat
+task*.json
+tasks/
+plan.md
+brain/
+
+# Laravel Specific
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/storage/
+frontend/bootstrap/cache/
+frontend/vendor/
+frontend/public/hot
+frontend/public/storage
+frontend/storage/*.key
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Sensitive Files
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+config/database.php
+
+# Build Files
+frontend/public/build/
+frontend/public/mix-manifest.json
+
+# Cache
+frontend/storage/framework/cache/
+frontend/storage/framework/sessions/
+frontend/storage/framework/views/
+frontend/storage/logs/
+
+# Testing
+frontend/coverage/
+frontend/tests/Browser/screenshots/
+frontend/tests/Browser/console/
+
+# Documentation Build
+docs/build/ 

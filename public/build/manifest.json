@@ -1,0 +1,16 @@
+{
+  "frontend/resources/css/app.css": {
+    "file": "assets/app-CdsVXFZq.css",
+    "src": "frontend/resources/css/app.css",
+    "isEntry": true
+  },
+  "frontend/resources/js/main.jsx": {
+    "file": "assets/main-RQT3IYcp.js",
+    "name": "main",
+    "src": "frontend/resources/js/main.jsx",
+    "isEntry": true,
+    "css": [
+      "assets/app-CdsVXFZq.css"
+    ]
+  }
+}
