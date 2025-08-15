@@ -241,7 +241,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Himanshu** - *Full Stack Developer*
 - GitHub: [@himanshu-firke](https://github.com/himanshu-firke)
-- LinkedIn: [himanshuifirke](https://www.linkedin.com/in/himanshufirke/)
+- LinkedIn: [himanshufirke](https://www.linkedin.com/in/himanshufirke/)
 
 ## 🙏 **Acknowledgments**
 
