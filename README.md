@@ -240,8 +240,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 **Author**
 
 **Himanshu** - *Full Stack Developer*
-- GitHub: [@yourusername](https://github.com/himanshu-firke)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/himanshufirke/)
+- GitHub: [@himanshu-firke](https://github.com/himanshu-firke)
+- LinkedIn: [himanshuifirke](https://www.linkedin.com/in/himanshufirke/)
 
 ## 🙏 **Acknowledgments**
 
